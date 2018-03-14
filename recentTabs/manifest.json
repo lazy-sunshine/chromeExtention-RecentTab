@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "recentTabs",
+    "description": "Open your recent closed tabs",
+    "version": "1.0",
+    "browser_action" :
+    {
+        "default_icon": "trabs.png",
+        "default_popup": "popUp.html",
+        "default_title": "Recent tabs"
+    },
+
+    "permissions":
+    [
+        "tabs",
+        "sessions"
+    ]
+}
